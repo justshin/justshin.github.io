@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+ /* background-color: #DAD2E3;*/
+  margin-right: 0px;
+}
+
+#nav-bar {
+
+  width: 100%;
+  height: 73px;
+  background:lightblue;
+  position: static;
+}
+
+.tab{
+  display: inline-block;
+  padding: 25px;
+  border-radius: 20%;
+  font-weight: bold;
+  font-family: "Bodoni MT";
+  float: right;
+  color: black;
+}
+
+#words{
+  color: black;
+}
+
+.jlogo {
+  padding: 20px;
+  float: left;
+}
+
+.jlogo:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#title {
+  position: absolute;
+  font-weight: bold;
+  font-family: "Bodoni MT";
+  font-size: 40px;
+  left: 500px;
+  top: 150px;
+  color: black;
+}
+
+#me{
+  position: absolute;
+  left: 500px;
+  top: 240px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+
+.tryme{
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  font-weight: bold;
+  font-family: "Bodoni MT";
+  background-color: lightblue;
+  z-index: 1;
+  color: black;
+}
+
+.bambooemoji{
+  position: absolute;
+  left: 150px;
+  top: 130px;
+  z-index: 1;
+}
+
+.wateremoji{
+  position: absolute;
+  left: 190px;
+  top: 131px;
+  z-index: 1;
+}
+
+.cityemoji{
+  position: absolute;
+  left: 230px;
+  top: 130px;
+  z-index: 1;
+}
+
+.lightbulbemoji{
+  position: absolute;
+  left: 270px;
+  top: 130px;
+  z-index: 1;
+}
+
+#numone{
+  font-family: "Bodoni MT";
+  position: absolute;
+  font-size: 20px;
+  font-style: italic;
+  left: 440px;
+  top: 580px;
+  color: black;
+}
+
+.linkedin{
+  position: fixed;
+  left: 540px;
+  top: 650px;
+}
+
+.facebook{
+  position: fixed;
+  left: 600px;
+  top: 650px;
+}
+
+.email{
+  position: fixed;
+  left: 660px;
+  top: 650px;
+}
+
+.insta{
+  position: fixed;
+  left: 720px;
+  top: 650px;
+}
+
+#tryme:hover{
+  cursor: pointer;
+}
+
+.linkedin:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.facebook:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.email:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.insta:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.tab:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.bamboo{
+  display: none;
+	opacity: .5;
+}
