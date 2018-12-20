@@ -378,9 +378,10 @@ body {
   body {
    width: 100%; 
 	}
-  #me {
+  #me img{
    position:absolute;
    height: 100px;
+   left: -50px;
 	}
 	  
 }
