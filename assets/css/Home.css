@@ -368,9 +368,9 @@ body {
   border-right: 3px solid black;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 768px){
   #nav-bar {
-    width: 100%;
+    width: 10px;
   }
 }
 
