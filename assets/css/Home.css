@@ -368,16 +368,45 @@ body {
   border-right: 3px solid black;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 770px){
   #nav-bar {
-    width: 768px;
-    height: 80px; 
+    width: 440px;
+    height: 50px;
   }
-  .bambooemoji {
-    left: 100px;
-    top: 90px;
+  .jlogo img{
+    position: absolute;
+    top: 12px;
+    left: 6px;
+    height:28px;
   }
-  body {
-   width: 100%;
+  .tab {
+    font-size: 8px;
+    padding: 18px;
+
+  }
+  .bambooemoji img {
+    height:20px;
+    position: absolute;
+    left: -100px;
+    top: -50px;
+  }
+  .wateremoji img {
+    height: 20px;
+    position: absolute;
+    left: -115px;
+    top: -50px;
+  }
+  .cityemoji img {
+    height: 20px;
+    position: absolute;
+    left: -127px;
+    top: -49px;
+  }
+  .lightbulbemoji img{
+    height: 20px;
+    position: absolute;
+    left: -139px;
+    top: -49px;
+  }
 }
 
