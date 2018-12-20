@@ -378,7 +378,7 @@ body {
   body {
    width: 100%; 
 	}
-  #me img {
+  #me {
    position:absolute;
    height: 100px;
 	}
