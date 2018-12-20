@@ -46,111 +46,13 @@ body {
   cursor: pointer;
 }
 
-.page {
+.contacttitle {
+  position: absolute;
+  left: 600px;
+  top:160px;
   font-family: "Bodoni MT";
-  font-size: 25px;
   font-weight: bold;
-  text-decoration: underline;
-  font-style: italic;
-}
-
-#title {
-  position: absolute;
-  left: 580px;
-  top: 150px;
-}
-
-.bamboo{
-  position: absolute;
-  padding: 50px;
-  top: 150px;
-  left:80px;
-}
-
-.busan{
-  position: absolute;
-  left: 430px;
-  top: 200px;
-}
-
-.shrine{
-  position: absolute;
-  left: 130px;
-  top: 500px;
-}
-
-.jeju{
-  position: absolute;
-  padding-bottom: 50px;
-  left: 130px;
-  top: 800px;
-}
-
-.view{
-  position: absolute;
-  left: 430px;
-  top: 720px;
-}
-
-.home{
-  position: absolute;
-  left: 950px;
-  top: 200px;
-}
-
-.la{
-  position: absolute;
-  left: 950px;
-  top:450px;
-}
-
-.light{
-  position: absolute;
-  left: 950px;
-  top: 700px;
-}
-
-.downtown{
-  position: absolute;
-  left: 950px;
-  top:950px;
-}
-
-
-.bamboo:hover{
-  opacity: .5;
-}
-
-.busan:hover{
-  opacity: .5;
-}
-
-.shrine:hover{
-opacity: .5;
-}
-
-.jeju:hover{
-opacity: .5;
-}
-
-.view:hover{
-opacity: .5;
-}
-
-.home:hover{
-opacity: .5;
-}
-
-.la:hover{
-opacity: .5;
-}
-
-.light:hover{
-opacity: .5;
-}
-
-.downtown:hover{
-opacity: .5;
+  font-size: 25px;
 }
 
 @keyframes fadeIn {

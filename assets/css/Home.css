@@ -2,28 +2,38 @@ body {
   margin: 0;
  /* background-color: #DAD2E3;*/
   margin-right: 0px;
+
 }
 
 #nav-bar {
 
-  width: 100%;
-  height: 73px;
-  background:lightblue;
-  position: static;
+  width: 1370px;
+  height: 84px;
+  background:#43464b;
+  position: fixed;
+  z-index: 2;
+  animation-name: fadeIn;
+  animation-duration: 1.3s;
+  animation-timing-function: ease-in;
 }
+
 
 .tab{
   display: inline-block;
-  padding: 25px;
+  padding: 30px;
   border-radius: 20%;
   font-weight: bold;
   font-family: "Bodoni MT";
+  font-size: 20px;
   float: right;
-  color: black;
+  color: #FDDCD7;
 }
 
-#words{
-  color: black;
+.tab:hover {
+  cursor: pointer;
+  animation-name: superbounce;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
 }
 
 .jlogo {
@@ -32,7 +42,8 @@ body {
 }
 
 .jlogo:hover{
-  transform: scale(1.2);
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
   cursor: pointer;
 }
 
@@ -41,30 +52,39 @@ body {
   font-weight: bold;
   font-family: "Bodoni MT";
   font-size: 40px;
-  left: 500px;
+  left: 510px;
   top: 150px;
   color: black;
+  animation-name: slideDown;
+  opacity: 0;
+  animation-duration: 1.1s;
+  animation-delay: .7s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
 }
 
 #me{
   position: absolute;
-  left: 500px;
+  left: 520px;
   top: 240px;
   border-radius: 50%;
   overflow: hidden;
 }
 
-
+#tryme{
+  cursor: pointer;
+  position: fixed;
+  z-index: 2;
+}
 
 .tryme{
   position: absolute;
-  left: 200px;
-  top: 100px;
+  left: 190px;
+  top: 90px;
   font-weight: bold;
   font-family: "Bodoni MT";
-  background-color: lightblue;
   z-index: 1;
-  color: black;
+  color: #d4938b;
 }
 
 .bambooemoji{
@@ -74,11 +94,23 @@ body {
   z-index: 1;
 }
 
+.bambooemoji:hover{
+  animation-name: superbounce;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
 .wateremoji{
   position: absolute;
   left: 190px;
   top: 131px;
   z-index: 1;
+}
+
+.wateremoji:hover{
+  animation-name: superbounce;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 .cityemoji{
@@ -88,11 +120,23 @@ body {
   z-index: 1;
 }
 
+.cityemoji:hover{
+  animation-name: superbounce;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
 .lightbulbemoji{
   position: absolute;
   left: 270px;
   top: 130px;
   z-index: 1;
+}
+
+.lightbulbemoji:hover{
+  animation-name: superbounce;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 #numone{
@@ -107,58 +151,219 @@ body {
 
 .linkedin{
   position: fixed;
-  left: 540px;
+  left: 560px;
   top: 650px;
+  opacity: 0;
+  animation-name: fadeInbounce;
+  animation-duration: 1.1s;
+  animation-delay: .1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
 }
 
 .facebook{
   position: fixed;
-  left: 600px;
+  left: 620px;
   top: 650px;
+  opacity: 0;
+  animation-name: fadeInbounce;
+  animation-duration: 1.1s;
+  animation-delay: .1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
 }
 
 .email{
   position: fixed;
-  left: 660px;
+  left: 680px;
   top: 650px;
+  opacity: 0;
+  animation-name: fadeInbounce;
+  animation-duration: 1.1s;
+  animation-delay: .1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
 }
 
 .insta{
   position: fixed;
-  left: 720px;
+  left: 740px;
   top: 650px;
+  opacity: 0;
+  animation-name: fadeInbounce;
+  animation-duration: 1.1s;
+  animation-delay: .1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
 }
 
-#tryme:hover{
-  cursor: pointer;
-}
 
 .linkedin:hover {
-  transform: scale(1.1);
+  animation-name: bounce;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
   cursor: pointer;
 }
 
 .facebook:hover {
-  transform: scale(1.1);
+  animation-name: bounce;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
   cursor: pointer;
 }
 
 .email:hover{
-  transform: scale(1.1);
+  animation-name: bounce;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
   cursor: pointer;
 }
 
 .insta:hover{
-  transform: scale(1.1);
+  animation-name: bounce;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
   cursor: pointer;
-}
-
-.tab:hover{
-  cursor: pointer;
-  transform: scale(1.1);
 }
 
 .bamboo{
   display: none;
 	opacity: .5;
+}
+
+.water{
+  display: none;
+  opacity: .5;
+}
+
+.city{
+  display: none;
+  opacity: .5;
+}
+
+.light{
+  display: none;
+  opacity: .5;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideDown {
+	0% {
+		transform: translateY(-100%);
+    opacity: 0;
+	}
+	50%{
+		transform: translateY(8%);
+    opacity: .2;
+	}
+	65%{
+		transform: translateY(-4%);
+	}
+	80%{
+		transform: translateY(4%);
+	}
+	95%{
+		transform: translateY(-2%);
+	}
+	100% {
+		transform: translateY(0%);
+    opacity: 1;
+	}
+}
+
+@keyframes fadeInbounce {
+	0% {
+		transform: translateY(-100%);
+    opacity: 0;
+	}
+	50%{
+		transform: translateY(8%);
+    opacity: .2;
+	}
+	65%{
+		transform: translateY(-4%);
+    opacity: .4;
+	}
+	80%{
+		transform: translateY(4%);
+    opacity: .6;
+	}
+	95%{
+		transform: translateY(-2%);
+    opacity: .8;
+	}
+	100% {
+		transform: translateY(0%);
+    opacity: 1;
+    from{
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+}
+	}
+
+@keyframes bounce {
+  from{
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(-15px);
+    opacity: .5;
+  }
+}
+
+@keyframes superbounce {
+  0%   { transform: translateY(0px); }
+    10%   { transform: translateY(2px); }
+    20%  { transform: translateY(4px); }
+    30%  { transform: translateY(6px); }
+    40%  { transform: translateY(8px); }
+    50%  { transform: translateY(10px); }
+    60% { transform: translateY(8px); }
+    70%   { transform: translateY(6px); }
+    80%  { transform: translateY(4px); }
+    90%  { transform: translateY(2px); }
+    100% { transform: translateY(0px); }
+}
+
+#stayer {
+  position: absolute;
+  font-style: italic;
+  font-family: "Bodoni MT";
+  font-size: 30px;
+  left: 540px;
+  top: 575px;
+  color: black;
+}
+
+body {
+  font-family: "Bodoni MT";
+  font-style: italic;
+  font-size: 28px;
+  color: black;
+  z-index: 3;
+}
+
+#container {
+
+  position: absolute;
+  top: 577.5px;
+  left: 630px;
+}
+
+#text {
+  display: inline-block;
+  color: black;
+  border-right: 3px solid black;
 }

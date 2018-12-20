@@ -1,22 +1,39 @@
 $(document).ready(function() {
-  $("#tryme").click(function(){
+  $(".bambooemoji").click(function(){
     $(".background").hide();
-    $(".bamboo").show();
+    $(".light").hide();
+    $(".water").hide();
+    $(".city").hide();
+    $(".bamboo").fadeIn(800);
   });
 });
 
-
-var app = document.getElementById('numone');
-var type = new Typewriter(numone, {
-    loop: true
+$(document).ready(function() {
+  $(".wateremoji").click(function(){
+    $(".background").hide();
+    $(".bamboo").hide();
+    $(".city").hide();
+    $(".light").hide();
+    $(".water").fadeIn(800);
+  });
 });
 
-type.typeString('Student')
-    .pauseFor(2000)
-    .deleteAll()
-    .typeString('Aspiring Data Scientist')
-    .pauseFor(2000)
-    .deleteChars(7)
-    .typeString('Amaetur Photographer')
-    .pauseFor(2500)
-    .start();
+$(document).ready(function() {
+  $(".cityemoji").click(function(){
+    $(".background").hide();
+    $(".bamboo").hide();
+    $(".water").hide();
+    $(".light").hide();
+    $(".city").fadeIn(800);
+  });
+});
+
+$(document).ready(function() {
+  $(".lightbulbemoji").click(function(){
+    $(".background").hide();
+    $(".bamboo").hide();
+    $(".water").hide();
+    $(".city").hide();
+    $(".light").fadeIn(800);
+  });
+});

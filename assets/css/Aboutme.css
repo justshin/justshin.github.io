@@ -5,78 +5,263 @@ body {
 }
 
 #nav-bar {
-
-  width: 100%;
-  height: 73px;
-  background:lightblue;
-  position: static;
+  width: 1370px;
+  height: 85px;
+  top: 0px;
+  background:#43464b;
+  position: fixed;
+  z-index: 2;
+  animation-name: fadeIn;
+  animation-duration: 1.3s;
+  animation-timing-function: ease-in;
 }
 
 .tab{
   display: inline-block;
-  padding: 25px;
+  padding: 30px;
   border-radius: 20%;
   font-weight: bold;
   font-family: "Bodoni MT";
+  font-size: 20px;
   float: right;
+  color: #FDDCD7;
 }
+
+.tab:hover {
+  cursor: pointer;
+  animation-name: superbounce;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+}
+
 
 .jlogo {
   padding: 20px;
   float: left;
 }
 
-.paragraph{
-  font-family: "Bodoni MT";
-  font-weight: bold;
-  font-size: 20px;
+.jlogo:hover{
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+  cursor: pointer;
 }
 
-#main{
-  position: absolute;
-  left: 400px;
-  top: 230px;
-}
+/* content stuff */
 
 .maintitle{
   font-family: "Bodoni MT";
   font-weight: bold;
   font-style: italic;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 #title{
   position: absolute;
-  left: 540px;
-  top:150px;
+  left: 100px;
+  top:140px;
+  animation-name: slideDown;
+  animation-duration: 1.7s;
+  animation-timing-function: ease-in;
 }
 
 .ball{
   position: absolute;
-  left: 170px;
-  top: 190px;
+  left: 340px;
+  top: 290px;
+}
+
+.ball:hover{
+  cursor: pointer;
+  animation-name: superbounce;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 .laptop {
   position: absolute;
-  left: 1090px;
-  top: 200px;
+  left: 180px;
+  top: 280px;
 }
 
-.sushi {
-  position: absolute;
-  left: 170px;
-  top: 500px;
+.laptop:hover{
+  cursor: pointer;
+  animation-name: superbounce;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 .earth {
   position: absolute;
-  left: 1090px;
-  top: 510px;
+  left: 260px;
+  top: 280px;
+}
+
+.earth:hover{
+  cursor: pointer;
+  animation-name: superbounce;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 .korea {
   position: absolute;
-  left: 620px;
-  top: 650px;
+  left: 100px;
+  top: 280px;
+}
+
+.korea:hover{
+  cursor: pointer;
+  animation-name: superbounce;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.starter{
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  font-family: "Bodoni MT";
+  font-size: 20px;
+  color: #b76e79;
+  font-weight: bold;
+  animation-name: fadeIn;
+  animation-duration: 1.8s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.6s;
+  opacity: 0;
+}
+
+.aboutme {
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  font-family: "Bodoni MT";
+  font-size: 20px;
+  color: #b76e79;
+  font-weight: bold;
+  display: none;
+}
+
+.study {
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  font-family: "Bodoni MT";
+  font-size: 20px;
+  color: #b76e79;
+  font-weight: bold;
+  display: none;
+}
+
+.care {
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  font-family: "Bodoni MT";
+  font-size: 20px;
+  color: #b76e79;
+  font-weight: bold;
+  display: none;
+}
+
+.sport{
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  font-family: "Bodoni MT";
+  font-size: 20px;
+  color: #b76e79;
+  font-weight: bold;
+  display: none;
+}
+
+.starterimage {
+  position: absolute;
+  left: 650px;
+  top: 85px;
+  opacity: .75;
+  animation-name: fadeInopacity;
+  animation-duration: 1.8s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.6s;
+  opacity: 0;
+}
+
+.aboutmeimage {
+  position: absolute;
+  left: 650px;
+  top:85px;
+  display: none;
+  opacity: .75;
+}
+
+.studyimage {
+  position: absolute;
+  left: 760px;
+  top: 85px;
+  display: none;
+  opacity: .75;
+}
+
+.careimage {
+  position: absolute;
+  left: 700px;
+  top: 85px;
+  display: none;
+  opacity: .75;
+}
+
+.sportimage {
+  position: absolute;
+  left: 650px;
+  top: 85px;
+  display: none;
+  opacity: .75;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInopacity {
+  from {opacity: 0;}
+  to {opacity: .75;}
+}
+
+@keyframes superbounce {
+  0%   { transform: translateY(0px); }
+    10%   { transform: translateY(2px); }
+    20%  { transform: translateY(4px); }
+    30%  { transform: translateY(6px); }
+    40%  { transform: translateY(8px); }
+    50%  { transform: translateY(10px); }
+    60% { transform: translateY(8px); }
+    70%   { transform: translateY(6px); }
+    80%  { transform: translateY(4px); }
+    90%  { transform: translateY(2px); }
+    100% { transform: translateY(0px); }
+}
+
+@keyframes slideDown {
+	0% {
+		transform: translateY(-100%);
+    opacity: 0;
+	}
+	50%{
+		transform: translateY(8%);
+    opacity: .2;
+	}
+	65%{
+		transform: translateY(-4%);
+	}
+	80%{
+		transform: translateY(4%);
+	}
+	95%{
+		transform: translateY(-2%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
 }
