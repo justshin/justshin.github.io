@@ -375,10 +375,12 @@ body {
     width: 768px;
     height: 80px; 
   }
-  .bambooemoji {
-    left: 100px;
-    top: 90px;
-  }
   body {
-   width: 100%;
+   width: 100%; 
+	}
+  #me img {
+   position:absolute;
+   height: 100px;
+	}
+	  
 }
