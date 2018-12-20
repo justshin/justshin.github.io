@@ -421,7 +421,7 @@ body {
   #title {
     font-size: 15px;
     position: absolute;
-    left: 128px;
+    left: 123px;
     top: 140px;
   }
   #stayer {
@@ -437,19 +437,19 @@ body {
     top: 410px;
   }
   .bamboo img{
-    height: 650px;
+    height: 670px;
     width: 100%;
   }
   .water img{
-    height: 650px;
+    height: 670px;
     width: 100%;
   }
   .city img{
-    height: 650px;
+    height: 670px;
     width: 100%;
   }
   .light img{
-    height: 650px;
+    height: 670px;
     width: 100%;
   }
   .linkedin img {
