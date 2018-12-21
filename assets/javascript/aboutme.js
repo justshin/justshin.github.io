@@ -10,7 +10,7 @@ $(document).ready(function() {
     $(".care").hide();
     $(".cook").hide();
     $(".sport").hide();
-    $(".aboutmeimage").fadeIn(900);
+    $(".aboutmeimage").fadeIn(900).delay(500);
     $(".aboutme").fadeIn(900);
   });
 });
@@ -22,7 +22,7 @@ $(document).ready(function() {
     $(".careimage").hide();
     $(".cookimage").hide();
     $(".sportimage").hide();
-    $(".studyimage").fadeIn(900);
+    $(".studyimage").fadeIn(900).delay(500);
     $(".starter").hide();
     $(".aboutme").hide();
     $(".care").hide();
@@ -39,7 +39,7 @@ $(document).ready(function() {
     $(".studyimage").hide();
     $(".cookimage").hide();
     $(".sportimage").hide();
-    $(".careimage").fadeIn(900);
+    $(".careimage").fadeIn(900).delay(500);
     $(".starter").hide();
     $(".study").hide();
     $(".aboutme").hide();
@@ -56,7 +56,7 @@ $(document).ready(function() {
     $(".careimage").hide();
     $(".studyimage").hide();
     $(".sportimage").hide();
-    $(".cookimage").fadeIn(900);
+    $(".cookimage").fadeIn(900).delay(500);
     $(".starter").hide();
     $(".study").hide();
     $(".care").hide();
@@ -73,7 +73,7 @@ $(document).ready(function() {
     $(".careimage").hide();
     $(".studyimage").hide();
     $(".cookimage").hide();
-    $(".sportimage").fadeIn(900);
+    $(".sportimage").fadeIn(900).delay(500);
     $(".starter").hide();
     $(".study").hide();
     $(".care").hide();
