@@ -265,3 +265,25 @@ body {
 		transform: translateY(0%);
 	}
 }
+
+@media only screen and (max-width: 768px){
+  #nav-bar {
+    width: 440px;
+    height: 55px;
+  }
+  .jlogo img{
+    position: absolute;
+    top: 12px;
+    left: 6px;
+    height:28px;
+  }
+  .tab {
+    font-size: 6px;
+    padding: 1px;
+    padding-right: 40px;
+    padding-top: 25px;
+
+  }
+}
+
+
