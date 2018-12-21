@@ -76,7 +76,7 @@ body {
 
 @media only screen and (max-width: 768px){
   #nav-bar {
-    width: 400px;
+    width: 440px;
     height: 55px;
   }
   .jlogo img{
@@ -91,4 +91,7 @@ body {
     padding-right: 40px;
     padding-top: 25px;
   }
+  #title {
+    position: absolute;
+    left: -100px;
 }
