@@ -282,8 +282,116 @@ body {
     padding: 1px;
     padding-right: 40px;
     padding-top: 25px;
-
   }
+  #title{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+  }
+  .maintitle{
+    font-size: 10px;
+  }
+  .korea img{
+    height: 30px;
+    position: absolute;
+    left: -70px;
+    top: -150px;
+  }
+  .laptop img{
+    height: 30px;
+    position: absolute;
+    left: -110px;
+    top: -147px;
+  }
+  .earth img{
+    height: 30px;
+    position: absolute;
+    left: -152px;
+    top: -146px;
+  }
+  .ball img{
+    height: 30px;
+    position: absolute;
+    left: -197px;
+    top: -157px;
+  }
+  .starter {
+    position: absolute;
+    font-size: 10px;
+    left: 30px;
+    top: 170px;
+  }
+  .aboutme {
+    position: absolute;
+    font-size: 10px;
+    left: 30px;
+    top: 170px;
+  }
+  .study {
+    position: absolute;
+    font-size: 10px;
+    left: 30px;
+    top: 170px;
+  }
+  .care {
+    position: absolute;
+    font-size: 10px;
+    left: 30px;
+    top: 170px;
+  }
+  .sport {
+    position: absolute;
+    font-size: 10px;
+    left: 30px;
+    top: 170px;
+  }
+  .starterimage img {
+    height: 300px;
+    width: 400px;
+  }
+  .starterimage {
+    position: absolute;
+    left: 0px;
+    top: 355px;
+  }
+  .aboutmeimage img{
+    height: 300px;
+    width: 400px;
+  }
+  .aboutmeimage {
+    position: absolute;
+    left: 0px;
+    top: 355px;
+  }
+  .studyimage img{
+    height: 300px;
+    width: 400px;
+  }
+  .studyimage {
+    position: absolute;
+    left: 0px;
+    top: 355px;
+  }
+  .careimage img{
+    height: 300px;
+    width: 400px;
+  }
+  .careimage {
+    position: absolute;
+    left: 0px;
+    top: 355px;
+  }
+  .sportimage img{
+    height: 300px;
+    width: 400px;
+  }
+  .sportimage {
+    position: absolute;
+    left: 0px;
+    top: 355px;
+  }
+
 }
+
 
 
