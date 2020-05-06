@@ -55,6 +55,14 @@ body {
   font-size: 25px;
 }
 
+#wow{
+  position: absolute;
+  left: 600px;
+  top: 200px;
+  font-family: "Bodoni MT";
+  font-size: 25px;
+}
+
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
