@@ -377,8 +377,7 @@ body {
   .tab {
     font-size: 6px;
     padding: .5px;
-    padding-right: 30px;
-    float: center;
+    padding-left: 20px;
     padding-top: 25px;
   }
   .jlogo{
