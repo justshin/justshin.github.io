@@ -102,4 +102,8 @@ body {
   #title {
     position: absolute;
     left: 100px;
+  }
+  #wow {
+    position: absolute;
+    left: 100px;
 }
