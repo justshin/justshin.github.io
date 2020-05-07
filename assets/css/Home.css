@@ -25,7 +25,7 @@ body {
   font-weight: bold;
   font-family: "Bodoni MT";
   font-size: 20px;
-  float: right;
+  float: left;
   color: #FDDCD7;
 }
 
@@ -36,16 +36,7 @@ body {
   animation-iteration-count: infinite;
 }
 
-.jlogo {
-  padding: 20px;
-  float: left;
-}
 
-.jlogo:hover{
-  animation-name: fadeIn;
-  animation-duration: 1.5s;
-  cursor: pointer;
-}
 
 #title {
   position: absolute;
@@ -372,13 +363,6 @@ body {
   #nav-bar {
     width: 440px;
     height: 55px;
-  }
-  .jlogo img{
-    position: absolute;
-    top: 12px;
-    left: 6px;
-    height:28px;
-    float: left;
   }
   .tab {
     font-size: 6px;
