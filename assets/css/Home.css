@@ -376,8 +376,8 @@ body {
 
   .tab {
     font-size: 6px;
-    padding: 1px;
-    padding-right: 45px;
+    padding: .5px;
+    padding-right: 30px;
     float: center;
     padding-top: 25px;
   }
