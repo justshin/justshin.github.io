@@ -377,12 +377,15 @@ body {
   .tab {
     font-size: 6px;
     padding: .5px;
-    padding-left: 20px;
+    padding-left: 30px;
     padding-top: 25px;
   }
-  .jlogo{
-    padding-top: 10px;  
-  }	
+  .jlogo img{
+    position: absolute;
+    top: 12px;
+    left: 6px;
+    height:28px;
+   }
   .bambooemoji img {
     height:18px;
     position: absolute;
