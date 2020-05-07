@@ -16,16 +16,6 @@ body {
   animation-duration: 1.3s;
   animation-timing-function: ease-in;
 }
-.jlogo {
-  padding: 20px;
-  float: left;
-}
-
-.jlogo:hover{
-  animation-name: fadeIn;
-  animation-duration: 1.5s;
-  cursor: pointer;
-}
 
 .tab{
   display: inline-block;
@@ -44,7 +34,16 @@ body {
   animation-iteration-count: infinite;
 }
 
+.jlogo {
+  padding: 20px;
+  float: left;
+}
 
+.jlogo:hover{
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+  cursor: pointer;
+}
 
 #title {
   position: absolute;
