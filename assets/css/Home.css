@@ -16,7 +16,16 @@ body {
   animation-duration: 1.3s;
   animation-timing-function: ease-in;
 }
+.jlogo {
+  padding: 20px;
+  float: left;
+}
 
+.jlogo:hover{
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+  cursor: pointer;
+}
 
 .tab{
   display: inline-block;
@@ -364,6 +373,7 @@ body {
     width: 440px;
     height: 55px;
   }
+
   .tab {
     font-size: 6px;
     padding: 1px;
@@ -371,6 +381,9 @@ body {
     float: left;
     padding-top: 25px;
   }
+  .jlogo{
+    padding-top: 10px;  
+  }	
   .bambooemoji img {
     height:18px;
     position: absolute;
