@@ -374,7 +374,6 @@ body {
     height: 55px;
   }
   .jlogo img{
-    position: absolute;
     top: 12px;
     left: 6px;
     height:28px;
@@ -386,7 +385,6 @@ body {
     padding-right: 45px;
     float: left;
     padding-top: 25px;
-
   }
   .bambooemoji img {
     height:18px;
