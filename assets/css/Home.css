@@ -378,12 +378,13 @@ body {
     top: 12px;
     left: 6px;
     height:28px;
+    float: left;
   }
   .tab {
     font-size: 6px;
     padding: 1px;
     padding-right: 45px;
-    left: 2px;
+    float: left;
     padding-top: 25px;
 
   }
