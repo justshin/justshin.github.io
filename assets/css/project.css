@@ -57,7 +57,7 @@ body {
 
 #wow{
   position: absolute;
-  left: 200px;
+  right: 200px;
   top: 200px;
   font-family: "Bodoni MT";
   font-size: 25px;
