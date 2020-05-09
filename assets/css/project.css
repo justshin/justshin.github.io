@@ -57,10 +57,16 @@ body {
 
 #wow{
   position: absolute;
-  left: 800px;
+  left: 400px;
   top: 200px;
   font-family: "Bodoni MT";
   font-size: 25px;
+}
+
+#email{
+  position: absolute;
+  left: 600px;
+  top: 240px;
 }
 
 @keyframes fadeIn {
