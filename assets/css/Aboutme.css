@@ -203,14 +203,6 @@ body {
   opacity: .75;
 }
 
-.careimage {
-  position: absolute;
-  left: 700px;
-  top: 85px;
-  display: none;
-  opacity: .75;
-}
-
 .sportimage {
   position: absolute;
   left: 650px;
@@ -368,15 +360,6 @@ body {
     width: 360px;
   }
   .studyimage {
-    position: absolute;
-    left: 0px;
-    top: 355px;
-  }
-  .careimage img{
-    height: 300px;
-    width: 360px;
-  }
-  .careimage {
     position: absolute;
     left: 0px;
     top: 355px;
