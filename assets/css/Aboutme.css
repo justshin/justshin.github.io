@@ -355,6 +355,15 @@ body {
     left: 0px;
     top: 355px;
   }
+  .careimage img{
+    height: 300px;
+    width: 360px;
+  }
+  .careimage {
+    position: absolute;
+    left: 0px;
+    top: 355px;
+  }
   .studyimage img{
     height: 300px;
     width: 360px;
