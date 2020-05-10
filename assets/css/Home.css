@@ -151,7 +151,7 @@ body {
 
 .linkedin{
   position: fixed;
-  left: 560px;
+  left: 555px;
   top: 650px;
   opacity: 0;
   animation-name: fadeInbounce;
@@ -163,7 +163,7 @@ body {
 
 .facebook{
   position: fixed;
-  left: 620px;
+  left: 615px;
   top: 650px;
   opacity: 0;
   animation-name: fadeInbounce;
@@ -175,7 +175,7 @@ body {
 
 .email{
   position: fixed;
-  left: 680px;
+  left: 675px;
   top: 650px;
   opacity: 0;
   animation-name: fadeInbounce;
@@ -187,7 +187,7 @@ body {
 
 .insta{
   position: fixed;
-  left: 740px;
+  left: 735px;
   top: 650px;
   opacity: 0;
   animation-name: fadeInbounce;
