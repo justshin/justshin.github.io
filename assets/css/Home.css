@@ -518,10 +518,11 @@ body {
     top: -200px;
   }
   .dropdown {
-    top: 10.5px;
-    right: 100px;
+    position: absolute;
+    top: 6px;
+    left: 80%;
     height:28px;
-    z-index: 5;
+    z-index: 2;
     display: block;
   }	
 }
