@@ -111,5 +111,9 @@ body {
   }
   #wow {
     position: absolute;
-    left: 50px;
+    left: 60px;
+  }
+  #email {
+    position: absolute;
+    left: 100px;
 }
