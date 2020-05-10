@@ -114,7 +114,5 @@ body {
     left: 20px;
   }
   #email {
-    position: absolute;
-    left: 80px;
-    top: 50px;
+    display: none;
 }
