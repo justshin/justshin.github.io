@@ -433,10 +433,11 @@ body {
     top: 355px;
   }
   .dropdown {
-    top: 10.5px;
-    right: 17px;
+    position: absolute;
+    top: 16px;
+    left: 95%;
     height:28px;
-    z-index: 5;
+    z-index: 2;
     display: block;
   }	
 
