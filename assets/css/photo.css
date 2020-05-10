@@ -207,6 +207,9 @@ opacity: .5;
     top: 70px;
     left: 60px;
   }
+  .page {
+    font-size: 10px;
+  }
   .bamboo img{
     position: absolute;
     padding: 50px;
