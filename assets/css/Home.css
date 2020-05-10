@@ -477,7 +477,7 @@ body {
     top: -200px;
   }
   .dropdown {
-    position: absolute:absolute
+    position: absolute;
     top: 12px;
     left: 50px;
     z-index: 2;
