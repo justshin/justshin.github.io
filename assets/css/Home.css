@@ -481,6 +481,7 @@ body {
     top: 12px;
     left: 50px;
     z-index: 2;
+    display: inline;
   }	
 }
 
@@ -496,7 +497,7 @@ body {
   position: absolute;
   left: 100px;
   top: 50px;
-  visibility: hidden;
+  display: none;
 }
 
 .dropdown-content {
