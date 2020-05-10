@@ -55,7 +55,7 @@ body {
   font-size: 25px;
 }
 
-#wow{
+.wow{
   position: absolute;
   right: 200px;
   top: 200px;
@@ -63,7 +63,7 @@ body {
   font-size: 25px;
 }
 
-#email{
+.email{
   position: absolute;
   left: 640px;
   top: 350px;
@@ -109,11 +109,11 @@ body {
     position: absolute;
     left: 100px;
   }
-  #wow {
+  .wow {
     position: absolute;
     left: 60px;
   }
-  #email {
+  .email {
     position: absolute;
     left: 100px;
 }
