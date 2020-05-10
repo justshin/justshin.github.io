@@ -520,7 +520,7 @@ body {
   .dropdown {
     position: absolute;
     top: 6px;
-    left: 80%;
+    left: 85%;
     height:28px;
     z-index: 2;
     display: block;
