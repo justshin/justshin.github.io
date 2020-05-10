@@ -519,7 +519,7 @@ body {
   }
   .dropdown {
     top: 11px;
-    left: 20px;
+    right: 6px;
     height:28px;
     z-index: 5;
     display: block;
