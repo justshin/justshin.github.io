@@ -195,6 +195,14 @@ body {
   opacity: .75;
 }
 
+.careimage {
+  position: absolute;
+  left: 670px;
+  top:85px;
+  display: none;
+  opacity: .75;
+}
+
 .studyimage {
   position: absolute;
   left: 770px;
