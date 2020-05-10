@@ -518,9 +518,9 @@ body {
     top: -200px;
   }
   .dropdown {
-    position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 12px;
+    left: 6px;
+    height:28px;
     z-index: 5;
     display: block;
   }	
