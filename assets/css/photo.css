@@ -189,4 +189,14 @@ opacity: .5;
     padding-right: 40px;
     padding-top: 25px;
   }
+  #wow {
+    position: absolute;
+    font-size: 10px;
+    left: 30px;
+    top: 170px;
+  }
+  #email {
+    position: absolute;
+    left: 30px;
+    top: 240px;
 }
