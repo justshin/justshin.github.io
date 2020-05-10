@@ -522,7 +522,7 @@ body {
     top: 30px;
     left: 30px;
     z-index: 5;
-    display: inline;
+    display: block;
   }	
 }
 
