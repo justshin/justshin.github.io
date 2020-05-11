@@ -192,23 +192,9 @@ opacity: .5;
     padding-right: 40px;
     padding-top: 25px;
   }
-  #wow {
-    position: absolute;
-    font-size: 10px;
-    left: 30px;
-    top: 170px;
-  }
-  #email {
-    position: absolute;
-    left: 30px;
-    top: 240px;
-}
-    #title {
-    top: 70px;
-    left: 60px;
-  }
   .page {
     font-size: 10px;
+    left: 50%;
   }
   .bamboo img{
     position: absolute;
@@ -233,7 +219,7 @@ opacity: .5;
 
   .jeju img{
     position: absolute;
-    left: 10px;
+    left: -10px;
     top: -540px;
     height: 110px;
     width: 110px;
