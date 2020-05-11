@@ -5,6 +5,7 @@ $(document).ready(function() {
     $(".water").hide();
     $(".city").hide();
     $(".bamboo").fadeIn(800);
+    $(".bamboo")
   });
 });
 
