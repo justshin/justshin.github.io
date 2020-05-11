@@ -19,19 +19,6 @@
         <div class="jlogo"><a href = "web.html"><img src= "assets/images/jlogo.jpg" height= 40px></a></div>
       </div>
     </div>
-    <div id="tryme">
-      <div class="tryme"></div>
-      <div class= "bambooemoji"><img src= "assets/images/bambooemoji.png" height = 30px></div>
-      <div class= "wateremoji"><img src= "assets/images/wateremoji.png" height = 30px></div>
-      <div class= "cityemoji"><img src= "assets/images/cityemoji.png" height = 30px></div>
-      <div class= "lightbulbemoji"><img src= "assets/images/lightbulbemoji.png" height = 30px></div>
-    </div>
-    <div id= "background">
-      <div class = "bamboo"><img src= "assets/images/bamboo.jpg" width = 1370px height = 1000px></div>
-      <div class = "water"><img src = "assets/images/jeju.jpg" width= 1370px height= 1100px></div>
-      <div class = "city"><img src = "assets/images/leaves.jpg" width = 1370px height= 1200px></div>
-      <div class = "light"><img src= "assets/images/island.jpg" width = 1370px height= 1000px></div>
-    </div>
     <div id="title"> Hi, I'm Justin Shin</div>
     <div id = "me"><img src= "assets/images/me.jpg" height = 300px></div>
 
@@ -47,13 +34,14 @@
     	<div id="text"></div>
     </div>
   </div>
-    </body>
-  </html>
+</body>
+</html>
+
 
   <script type="text/javascript">
-
+// THIS IS FOR THE AUTOMATED TEXT TYPER
   // List of sentences
-  var _CONTENT = ["Student", "Aspiring Data Scientist", "Traveler"];
+  var _CONTENT = ["Student", "Aspiring Data Scientist", "Nomad/Traveler", "Photography Hobbyist"];
   // Current sentence being processed
   var _PART = 0;
 
@@ -107,9 +95,9 @@
 
   // Start the typing effect on load
   _INTERVAL_VAL = setInterval(Type, 100);
-
   </script>
-  
+
+
   <div class="dropdown">
   <button class="dropbtn">Explore</button>
   <div class="dropdown-content">
@@ -120,3 +108,69 @@
   </div>
 </div>
 
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade bamboo">
+  <img src="assets/images/bamboo.jpg" width = 1370px height = 1000px>
+</div>
+
+<div class="mySlides fade water">
+  <img src="assets/images/jeju.jpg" width= 1370px height= 1100px>
+</div>
+
+<div class="mySlides fade light">
+  <img src="assets/images/leaves.jpg" width = 1370px height= 1200px>
+</div>
+<div class="mySlides fade city">
+  <img src="assets/images/island.jpg" width = 1370px height= 1000px>
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<style>
+.fade {
+  animation-name: fade;
+  animation-duration: 8s;
+}
+@keyframes fade {
+  0% {opacity: 0;}
+  40% {opacity: .4;}
+  70% {opacity: .4;}
+  100% {opacity: 0;}
+}
+</style>
+ <script>
+ // new script for slideshow animation instead of image click
+ var slideIndex = 0;
+ showSlides();
+ showSlides();
+ showSlides();
+ showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 8000); // Change image every 8 seconds
+
+}
+ </script>
