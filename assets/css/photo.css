@@ -2,12 +2,13 @@ body {
   margin: 0;
  /* background-color: #DAD2E3;*/
   margin-right: 0px;
+  height: 100%;
+  width: 100%;
 }
 
 #nav-bar {
-  width: 1370px;
+  width: 100%;
   height: 85px;
-  top: 0px;
   background:#43464b;
   position: fixed;
   z-index: 2;
@@ -56,64 +57,63 @@ body {
 
 #title {
   position: absolute;
-  left: 480px;
-  top: 150px;
+  left: 35%;
+  bottom: 80%;
 }
 
 .bamboo{
   position: absolute;
-  padding: 50px;
-  top: 150px;
-  left:80px;
+  top: 26.5%;
+  left:9.6%;
 }
 
 .busan{
   position: absolute;
-  left: 430px;
-  top: 200px;
+  left: 31.85%;
+  top: 26.5%;
 }
 
 .shrine{
   position: absolute;
-  left: 130px;
-  top: 500px;
+  left: 9.6%;
+  top: 66.3%;
 }
 
 .jeju{
   position: absolute;
   padding-bottom: 50px;
-  left: 130px;
-  top: 800px;
+  left: 9.6%;
+  top: 106%;
 }
 
 .view{
   position: absolute;
-  left: 430px;
-  top: 720px;
+  left: 31.856%;
+  top: 95.45%;
 }
 
 .home{
   position: absolute;
-  left: 950px;
-  top: 200px;
+  left: 70.43%;
+  top: 26.55%;
 }
 
 .la{
   position: absolute;
-  left: 950px;
-  top:450px;
+  left: 70.43%;
+  top:59.7%;
 }
 
 .light{
   position: absolute;
-  left: 950px;
-  top: 700px;
+  left: 70.415%;
+  top: 92.82%;
 }
 
 .downtown{
   position: absolute;
-  left: 950px;
-  top:950px;
+  left: 70.4%;
+  top:126%;
 }
 
 
@@ -165,8 +165,8 @@ opacity: .5;
 
 .dropdown {
   position: absolute;
-  left: 100px;
-  top: 50px;
+  left: 300px;
+  top: 16px;
   display: none;
 }
 
@@ -218,14 +218,21 @@ opacity: .5;
     position: fixed;
   }
   #nav-bar {
-    width: 400px;
+    width: 100%;
     height: 55px;
   }
   .jlogo img{
     position: absolute;
-    top: 12px;
-    left: 6px;
-    height:28px;
+    top: 23%;
+    left: 2.5%;
+    height:55%;
+  }
+  .dropdown {
+    position: absolute;
+    left: 80%;
+    top: 2%;
+    z-index: 2;
+    display: block;
   }
   .tab {
     font-size: 6px;
@@ -234,79 +241,75 @@ opacity: .5;
     padding-top: 25px;
     visibility: hidden;
   }
+  #title {
+    position: fixed;
+    z-index: 4;
+    left: 17%;
+    top: 10%;
+  }
   .page {
-    font-size: 10px;
-    left: 50%;
+    font-size: 15px;
   }
   .bamboo img{
-    position: absolute;
-    padding: 50px;
-    top: -50px;
-    left:-120px;
+    position: fixed;
+    top: 16%;
+    left: 2%;
     height: 110px;
   }
   .busan img{
-    position: absolute;
-    left: -310px;
-    top: -50px;
+    position: fixed;
+    left: 34%;
+    top: 16%;
     height: 110px;
   }
 
   .shrine img{
-    position: absolute;
-    left: -120px;
-    top: -240px;
+    position: fixed;
+    left: 2%;
+    top: 34%;
     height: 110px;
   }
 
   .jeju img{
-    position: absolute;
-    left: -10px;
-    top: -540px;
+    position: fixed;
+    left: 34%;
+    top: 34%;
     height: 110px;
     width: 110px;
   }
 
   .view img{
-    position: absolute;
-    left: -200px;
-    top: -460px;
+    position: fixed;
+    left: 66%;
+    top: 34%;
     height: 110px;
     width: 110px
   }
 
   .home img{
-    position: absolute;
-    left: -720px;
-    top: -50px;
+    position: fixed;
+    left: 66%;
+    top: 16%;
     height: 110px;
   }
 
   .la img{
-    position: absolute;
-    left: -940px;
-    top:-80px;
+    position: fixed;
+    left: 2%;
+    top:52%;
     height: 110px;
   }
 
   .light img{
-    position: absolute;
-    left: -830px;
-    top: -330px;
+    position: fixed;
+    left: 34%;
+    top: 52% ;
     height: 110px;
   }
   .downtown img{
-    position: absolute;
-    left: -720px;
-    top:-580px;
+    position: fixed;
+    left: 66%;
+    top:52%;
     height: 110px;
   }
-  .dropdown {
-    position: absolute;
-    top: 16px;
-    right: 80%;
-    height:28px;
-    z-index: 2;
-    display: block;
-  }	
 }

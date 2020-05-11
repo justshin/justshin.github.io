@@ -281,7 +281,7 @@ body {
   color: black;
   text-decoration: none;
   display: block;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .dropdown-content a:hover {background-color: #ddd;}
