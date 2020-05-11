@@ -2,10 +2,13 @@ body {
   margin: 0;
  /* background-color: #DAD2E3;*/
   margin-right: 0px;
+  height: 100%;
+  width: 100%;
+
 }
 
 #nav-bar {
-  width: 1370px;
+  width: 100%;
   height: 85px;
   top: 0px;
   background:#43464b;
@@ -307,9 +310,9 @@ body {
 	}
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 700px){
   #nav-bar {
-    width: 440px;
+    width: 100%;
     height: 55px;
   }
   .jlogo img{
@@ -388,8 +391,8 @@ body {
     top: 170px;
   }
   .starterimage img {
-    height: 300px;
-    width: 360px;
+    height: 100%;
+    width: 100%;
   }
   .starterimage {
     position: absolute;
@@ -397,8 +400,8 @@ body {
     top: 355px;
   }
   .aboutmeimage img{
-    height: 300px;
-    width: 360px;
+    height: 100%;
+    width: 100%;
   }
   .aboutmeimage {
     position: absolute;
@@ -406,8 +409,11 @@ body {
     top: 355px;
   }
   .careimage img{
-    height: 300px;
-    width: 360px;
+    position: fixed;
+    left: 5%;
+    top: 55%;
+    height: 15%;
+    width: 80%;
   }
   .careimage {
     position: absolute;
@@ -415,8 +421,8 @@ body {
     top: 355px;
   }
   .studyimage img{
-    height: 300px;
-    width: 360px;
+    height: 100%;
+    width: 100%;
   }
   .studyimage {
     position: absolute;
@@ -424,8 +430,8 @@ body {
     top: 355px;
   }
   .sportimage img{
-    height: 300px;
-    width: 360px;
+    height: 100%;
+    width: 100%;
   }
   .sportimage {
     position: absolute;
@@ -439,6 +445,6 @@ body {
     height:28px;
     z-index: 2;
     display: block;
-  }	
+  }
 
 }
